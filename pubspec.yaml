@@ -1,0 +1,27 @@
+name: nearify
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  geolocator: ^12.0.0        # For GPS location
+  http: ^1.2.0              # For Ola Maps API call
+  flutter_map: ^8.2.1       # Map widget
+  latlong2: ^0.9.0          # LatLng for map
+  flutter_map_animations: ^0.9.0
+  flutter_polyline_points: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
